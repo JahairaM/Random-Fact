@@ -1,4 +1,4 @@
-pip install fastapi uvicorn
+pip install uvicorn
 
 from fastapi import FastAPI, HTTPException, Query, Path
 from pydantic import BaseModel
